@@ -1,0 +1,59 @@
+@import "../../bower_components/materialize/dist/css/materialize.min.css";
+@import "modules/_carousel";
+@import "modules/_variables";
+@import "modules/_navigation";
+@import "modules/_btn";
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+    .main {
+      width: 90%;
+      background-color: #EE6E73;
+      min-height: 90%;
+      max-height: 100%;
+      margin: 0 auto;
+    }
+}
+
+img {
+  display: block;
+  //height: 100px;
+  margin-right: 10px;
+}
+
+.team {
+  min-height: 100px;
+  background-color: white;
+  .team-content {
+    display: block;
+    padding-left: 35%;
+    img {
+      display: inline-block;
+    }
+    button {
+      margin-bottom: 28px;
+    }
+  }
+}
+.portfolio {
+  min-height: 100px;
+}
+
+.service {
+  min-height: 100px;
+  background-color: #ebebeb;
+}
+
+.page-footer {
+  .footer-copyright {
+    background-color: inherit!important;
+  }
+}
+.row {
+  .team, .portfolio, .service {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+}
